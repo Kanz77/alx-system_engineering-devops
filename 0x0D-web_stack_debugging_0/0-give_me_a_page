@@ -1,5 +1,3 @@
-
 #!/usr/bin/env bash
-# Starts apache server
-
-/etc/init.d/apache2 start
+# Apache to run on the container and to return a page containing Hello Holberton
+service apache2 start
